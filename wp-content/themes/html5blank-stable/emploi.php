@@ -1,1 +1,2 @@
-<?php /* Template Name: Emploi */ ?>
+<?php /* Template Name: Emploi */ get_header(); get_template_part("nav"); ?>
+
