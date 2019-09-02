@@ -1,8 +1,11 @@
+@import "var.scss";
 @import "nav.scss";
 @import "footer.scss";
 @import "pouvoirs.scss";
 @import "emploi.scss";
-@import "var.scss";
 body{
     background-color: rgb(255, 255, 255);
+    width : 100vw;
+    margin : 0;
+    padding : 0;
 }
