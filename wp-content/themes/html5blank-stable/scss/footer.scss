@@ -1,0 +1,98 @@
+.footer {
+    display: flex;
+    color: white;
+    background-color: #24303B;
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 4%;
+    align-items: center;
+
+    //* PARTIE DESCRIPTION
+
+    .desc {
+        width: 33%;
+
+        .big {
+            font-weight: bold;
+        }
+    }
+
+    //* PARTIE NAVIGATION
+
+    .nav {
+        width: 50%;
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                margin-top: .2em;
+            }
+
+            a {
+                color: white;
+                font-family: 'Abril Fatface', serif;
+            }
+
+            .line {
+                height: 2px;
+                background-color: #F5F5EE;
+                margin-top: 1.2em;
+                width: 0;
+                transition: .5s;
+            }
+
+            .full-line-1 {
+                width: 100px;
+            }
+
+            .full-line-2 {
+                width: 130px;
+            }
+
+            .full-line-3 {
+                width: 64px;
+            }
+
+            .full-line-4 {
+                width: 43px;
+            }
+
+            .full-line-5 {
+                width: 60px;
+            }
+
+
+        }
+    }
+
+    //* PARITE CONTACT
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+
+        h3 {
+            margin: 0;
+        }
+
+        span {
+            font-size: .7em;
+            margin-bottom: .8em;
+        }
+
+        input {
+            margin-bottom: .8em;
+        }
+
+        textarea {
+            margin-bottom: .8em;
+        }
+    }
+}
