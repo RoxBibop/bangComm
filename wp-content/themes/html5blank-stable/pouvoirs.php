@@ -4,7 +4,6 @@ get_template_part('nav'); ?>
 
 <section class="p_section">
 
-    <!-- <hr> -->
 
     <h2>Étude de cas</h2>
     <p class="subtitle">Ils sont devenus « super » communicants...</p>
@@ -124,17 +123,27 @@ get_template_part('nav'); ?>
             </div>
         </div>
 
-        
-    </section>
 
-    <div class="p_bandeau">
-        <div class="p_bande"></div>
+</section>
 
-        <div class="cape_bouton">
-            
+<section class="p_bandeau">
+    <div class="p_bande"></div>
+
+    <div class="p_button">
+        <div class="p_fonblan">
+        <h4><a href="" class="p_cape">Je revêts ma cape</a></h4>
         </div>
-
-        <div class="p_bande"></div>
     </div>
-    
+
+    <div class="p_bande"></div>
+</section>
+
+<section class="p_section_slider">
+    <div class="p_cont">
+        <p>
+            Nos « super » communicants
+        </p>
+    </div>
+</section>
+
 <?php get_footer(); ?>
