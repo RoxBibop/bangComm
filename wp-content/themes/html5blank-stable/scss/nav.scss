@@ -1,9 +1,112 @@
+.toggle
+{
+    position: fixed;
+    top : 5%;
+    left : 93%;
+    transform: translateX(80%);
+    cursor: pointer;
+    z-index: 99999;
+}
+.toggle span
+{
+    position: relative;
+    width: 40px;
+    height: 5px;
+    background: #E94E4D;
+    display: block;
+    margin-bottom: 8px;
+    transition: .6s;
+    border-radius: 25px;
+}
+.toggle span:nth-child(1)
+{
+    transform-origin: left;
+}
+.toggle span:nth-child(2)
+{
+    transform-origin: center;
+}
+.toggle span:nth-child(3)
+{
+    transform-origin: left;
+}
+.togactive span
+{
+    background : #FFF;
+}
+.toggle.togactive span:nth-child(1)
+{
+    transform : rotate(45deg);
+    left : 3px;
+}
+.toggle.togactive span:nth-child(2)
+{
+    transform : rotate(315deg);
+    right : 3px
+}
+.toggle.togactive span:nth-child(3)
+{
+    transform : scaleX(0);
+}
 .header
 {
     position: fixed;
-    height : 10vh;
+    height : 100vh;
     width : 100vw;
-    background-color: red;
-    top:11px;
+    background-color: #E94E4D;
+    top:0px;
     left : 0;
+    clip-path: circle(100px at 120% -25%);
+    transition : .8s;
+    z-index: 9434
+}
+.headerActive
+{
+    clip-path: circle(1400px);
+}
+.navbar
+{
+    position: absolute;
+    bottom: 5vh;
+    transform: translateX(-30vw);
+    color : white;
+    transition : .5s;
+    ul
+    {
+        font-family: 'Abril Fatface', 'serif';
+        list-style-type: none;
+
+        a
+        {
+            color : #ffffff;
+            font-size: 5em;
+            transition : .5s;
+            font-weight: 100;
+        }
+
+        a:hover
+        {
+            font-size: 5.5em;
+        }
+    }
+}
+.navactive
+{
+    transform: translateX(0vw);
+}
+.reseaux
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom : 5vh;
+    right : 5vw;
+
+    a
+    {
+        font-size: 5em;
+        color : #FFF;
+    }
 }
