@@ -1,4 +1,4 @@
-<?php /* Template Name: Emploi */ get_header(); ?>
+<?php /* Template Name: Emploi */ get_header(); get_template_part('nav');?>
 <main>
 <section class="e_sec">
     
@@ -88,7 +88,6 @@
     <div class="e_button">
         <a class="e_savoirplus" href="#">en savoir plus</a>
     </div>
-    <?php get_footer();
-?>
+    <?php get_footer();?>
 </section>
 </main>
