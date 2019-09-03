@@ -66,7 +66,21 @@
 
 		// Ligne 4
 
+		var li4 = document.querySelector('.li-4');
 
+		li4.addEventListener('mouseover', activel4);
+		li4.addEventListener('mouseout', offl4);
+
+		function activel4(){
+			let ligne = document.querySelector('.line-4');
+			ligne.classList.add('full-line-4');
+		}
+
+		function offl4(){
+			let ligne = document.querySelector('.line-4');
+			ligne.classList.remove('full-line-4');
+		
+		}
 
 		// Ligne 5
 
