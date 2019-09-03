@@ -1,3 +1,17 @@
+.logobtn
+{
+    position : absolute;
+    top : 30px;
+    left : 50px;
+    
+    img
+    {
+        object-fit: cover;
+        width :5vw;
+        height: 5vh;
+    }
+}
+
 .toggle
 {
     position: fixed;
