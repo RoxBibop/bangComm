@@ -43,31 +43,36 @@ h4 {
     }
 
     .p_bloc {
-        width: 35vw;
+        width: 40vw;
         background-color: #F5F5EE;
         padding: 0 20px;
         margin-bottom: 20vh;
         font-weight: bold;
 
-        .p_titre {
-            color: #24303B;
-            font-size: 1.3em;
-            text-transform: uppercase;
-            margin-bottom: 0;
+        p {
+            font-size: 1.5em;
+            word-wrap: break-word;
         }
 
+        .p_titre {
+            color: #24303B;
+            text-transform: uppercase;
+            margin-bottom: 0;
+            font-size: 2em;
+        }
+        
         .p_content {
             line-height: 1.7;
         }
 
         .p_red {
             color: #E94E4D;
-            font-size: 1.2em;
+            font-size: 1.8em;
         }
 
         .p_tag {
             text-transform: uppercase;
-            font-size: 1.1em;
+            font-size: 1.6em;
             color: #E94E4D;
             font-family: 'Lato', sans-serif;
             margin-top: 0;

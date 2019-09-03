@@ -1,45 +1,46 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
 
-				<div class="desc">
-					<p>
-						Au service de la communication (et des super-héros) depuis 2009, nous sommes implantés sur
-						la Côte d’Opale, mais nous volons à votre secours sur toute la
-						France
-					</p>
+				<p>
+					Au service de la communication (et des super-héros) depuis 2009, nous sommes implantés sur
+					la Côte d’Opale, mais nous volons à votre secours sur toute la
+					France
+				</p>
 
-					<p>
-						<span class="big"><?php bloginfo('name'); ?></span>
-						<br>
-						31 bd des Alliés
-						<br>
-						62100 Calais, FRANCE
-						<br>
-					</p>
+				<div class="footer_under">
 
-					<p class="big">03 21 35 56 91</p>
+					<div class="desc">
+						<p>
+							<span class="big"><?php bloginfo('name'); ?></span>
+							<br>
+							31 bd des Alliés
+							<br>
+							62100 Calais, FRANCE
+							<br>
+						</p>
 
-					<p>
-						Sur RDV du lundi au vendredi : <br>
-						9h à 12h - 14h à 17h
-					</p>
+						<p class="big">03 21 35 56 91</p>
 
+						<p>
+							Sur RDV du lundi au vendredi : <br>
+							9h à 12h - 14h à 17h
+						</p>
+
+					</div>
+
+					<nav class="footnav">
+						<?php html5blank_nav(); ?>
+					</nav>
+
+					<form action="" class="contact">
+						<p>Contactez-nous !</p>
+						<span>(On ne mord pas, enfin pas encore...)</span>
+						<input type="text" placeholder="Prénom / Nom">
+						<input type="email" name="email" id="email" placeholder="Adresse mail">
+						<textarea name="message" id="message" cols="30" rows="10"></textarea>
+						<button type="submit">Envoyer</button>
+					</form>
 				</div>
-
-				<nav class="footnav">
-					<?php html5blank_nav(); ?>
-				</nav>
-
-				<form action="" class="contact">
-					<h3>Contactez-nous !</h3>
-					<span>(On ne mord pas, enfin pas encore...)</span>
-					<input type="text" placeholder="Prénom / Nom">
-					<input type="email" name="email" id="email" placeholder="Adresse mail">
-					<textarea name="message" id="message" cols="30" rows="10"></textarea>
-					<button type="submit">Envoyer</button>
-				</form>
-
-
 			</footer>
 			<!-- /footer -->
 

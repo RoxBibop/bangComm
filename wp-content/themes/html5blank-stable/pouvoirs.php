@@ -12,7 +12,7 @@ get_template_part('nav'); ?>
         <div class="p_flex end">
             <div class="p_bloc">
                 <p class="p_titre">
-                    Révéler les arguments concurrentiels de l'entripre
+                    Révéler les arguments concurrentiels de l'entreprise
                 </p>
 
                 <p class="p_content">
