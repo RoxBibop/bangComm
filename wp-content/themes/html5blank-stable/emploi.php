@@ -3,7 +3,7 @@
 <section class="e_sec">
     
     <div class="e_titre">
-        <h1>Le mode d'emploi</h1>
+        <h2>Le mode d'emploi</h2>
         <p>Comment devenir un super-communicant ?</p>
     </div>
 
