@@ -89,4 +89,5 @@
         <a class="e_savoirplus" href="#">en savoir plus</a>
     </div>
 </section>
-
+<?php get_footer();
+?>
