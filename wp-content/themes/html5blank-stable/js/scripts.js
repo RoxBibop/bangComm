@@ -5,7 +5,7 @@
 		'use strict';
 		
 		// DOM ready, take it away
-
+		
 
 		// Apparition de la ligne supérieure
 		// Nav du footer

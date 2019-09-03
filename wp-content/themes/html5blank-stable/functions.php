@@ -104,6 +104,9 @@ function html5blank_header_scripts()
         wp_register_script('nav', get_template_directory_uri() . '/js/nav.js', array(), '1.0.0', true); // Custom scripts
         wp_enqueue_script('nav'); // Enqueue it!
 
+        wp_register_script('rellax', get_template_directory_uri() . '/js/rellax.min.js', array(), '1.0.0', true); // Custom scripts
+        wp_enqueue_script('rellax'); // Enqueue it!
+ 
         wp_register_script('fontawesome', 'https://kit.fontawesome.com/0b3a13e271.js', array(), '1.0.0'); // Custom scripts
         wp_enqueue_script('fontawesome'); // Enqueue it!
     }

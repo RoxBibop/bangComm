@@ -1,5 +1,8 @@
 <?php /* Template Name: Emploi */ get_header(); get_template_part('nav');?>
 <main>
+<div class="e_bagarre rellax" data-rellax-speed="4"><img src="<?php echo get_template_directory_uri(); ?>/img/bagarre.png" alt="Personnage qui donne un coup de poing"></div>
+<div class="e_green1 rellax" data-rellax-speed="-4"></div>
+<div class="e_green2 rellax" data-rellax-speed="4"></div>
 <section class="e_sec">
     
     <div class="e_titre">
@@ -8,7 +11,7 @@
     </div>
 
     <div class="e_valeur">
-        <h2>révélons vos valeurs</h2>
+        <h2>Révélons vos valeurs</h2>
         <p>Ensemble, nous révélons le meilleur de vos<br>entreprises et de vos savoir-faire.</p>
     </div>
     <div class="e_hashtags">
@@ -25,7 +28,7 @@
 
 <section class="e_creons">
     <div class="e_titre2">
-        <h2>créons la différence</h2>
+        <h2>Créons la différence</h2>
         <p>Nous mettons notre expertise et notre<br>
            créativité à votre service pour vous<br>
            permettre de vous démarquer et de vous</p>
@@ -43,6 +46,8 @@
             <h5>créer vos supports</h5>
             <p>imprimés, press, digital, réseaux sociaux;<br>vidéos, salons, goodies...</p>
         </div>
+var rellax = new Rellax('.rellax');
+
         <div class="e_sel">
             <h5>sélectionner et/ou piloter les prestataires</h5>
             <p>digital, imprimer, enseigne, photographie...</p>
@@ -59,10 +64,10 @@
     </div>
     <hr class="hr2">
     <div class="e_titre3">
-        <h2>cultivons vos talents</h2>
-        <p>Nous proposons les outils qui<br>
-           professionnalisent votre communication<br>
-           et mettent en lumoère les talents de votre<br>entreprise.</p>
+        <h2>Cultivons vos talents</h2>
+        <p>Nous proposons les outils qui
+           professionnalisent votre <br>communication
+           et mettent en lumière les talents de votre<br>entreprise.</p>
     </div>
     <div class="e_hashtags">
         <div>
@@ -88,3 +93,7 @@
     <?php get_footer();?>
 </section>
 </main>
+
+<script>
+    var rellax = new Rellax('.rellax');
+</script>
