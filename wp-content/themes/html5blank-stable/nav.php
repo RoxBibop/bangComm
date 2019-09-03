@@ -17,7 +17,3 @@
 	</div>
 </header>
 <!-- /header -->
-<script>
-
-
-</script>
