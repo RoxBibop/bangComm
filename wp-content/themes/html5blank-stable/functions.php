@@ -100,6 +100,10 @@ function html5blank_header_scripts()
 
         wp_register_script('html5blankscripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0'); // Custom scripts
         wp_enqueue_script('html5blankscripts'); // Enqueue it!
+
+
+        wp_register_script('nav', get_template_directory_uri() . '/js/nav.js', array('jquery'), '1.0.0'); // Custom scripts
+        wp_enqueue_script('nav'); // Enqueue it!
     }
 }
 
@@ -120,6 +124,24 @@ function html5blank_styles()
 
     wp_register_style('html5blank', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
     wp_enqueue_style('html5blank'); // Enqueue it!
+
+    wp_register_style('app', get_template_directory_uri() . '/css/app.min.css', array(), '1.0', 'all');
+    wp_enqueue_style('app'); // Enqueue it!
+
+    wp_register_style('emploi', get_template_directory_uri() . '/css/emploi.min.css', array(), '1.0', 'all');
+    wp_enqueue_style('emploi'); // Enqueue it!
+
+    wp_register_style('footer', get_template_directory_uri() . '/css/footer.min.css', array(), '1.0', 'all');
+    wp_enqueue_style('footer'); // Enqueue it!
+
+    wp_register_style('pouvoirs', get_template_directory_uri() . '/css/pouvoirs.min.css', array(), '1.0', 'all');
+    wp_enqueue_style('pouvoirs'); // Enqueue it!
+
+    wp_register_style('var', get_template_directory_uri() . '/css/var.min.css', array(), '1.0', 'all');
+    wp_enqueue_style('var'); // Enqueue it!
+
+    wp_register_style('nav', get_template_directory_uri() . '/css/nav.min.css', array(), '1.0', 'all');
+    wp_enqueue_style('nav'); // Enqueue it!
 }
 
 // Register HTML5 Blank Navigation
