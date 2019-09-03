@@ -124,10 +124,17 @@ get_template_part('nav'); ?>
             </div>
         </div>
 
-        <div class="bandeau">
+        
+    </section>
 
+    <div class="p_bandeau">
+        <div class="p_bande"></div>
+
+        <div class="cape_bouton">
+            
         </div>
 
-</section>
-
+        <div class="p_bande"></div>
+    </div>
+    
 <?php get_footer(); ?>
