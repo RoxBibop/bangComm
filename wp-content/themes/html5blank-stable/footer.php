@@ -26,23 +26,8 @@
 
 				</div>
 
-				<nav class="nav">
-					<ul>
-						<div class="line line-1"></div>
-						<li class ="li-1"><a href="#">Nos pouvoirs</a></li>
-
-						<div class="line line-2"></div>
-						<li class ="li-2"><a href="#">Le mode d'emploi</a></li>
-
-						<div class="line line-3"></div>
-						<li class ="li-3"><a href="#">L'agence</a></li>
-
-						<div class="line line-4"></div>
-						<li class ="li-4"><a href="#">Actus</a></li>
-
-						<div class="line line-5"></div>
-						<li class ="li-5"><a href="#">Contact</a></li>
-					</ul>
+				<nav class="footnav">
+					<?php html5blank_nav(); ?>
 				</nav>
 
 				<form action="" class="contact">
