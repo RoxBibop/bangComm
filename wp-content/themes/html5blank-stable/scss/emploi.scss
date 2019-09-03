@@ -10,7 +10,7 @@ main
     margin : 0;
     height : 100vh;
     background-color: #F5F5EE;
-
+    margin-top: calc(6vh + 50px);
     .e_titre
     {
         padding-top: 5vh;
@@ -35,16 +35,15 @@ main
     .e_valeur
     {
         margin-top: 12vh;
-        text-align: center;
+        text-align: start;
         width : 60vw;
-
+        margin-left: 4vw;
         h2
         {
             color : #8EAA3B;
             font-family: 'Abril Fatface', cursive;
             font-weight: 100;
-            text-transform: uppercase;
-            font-size: 2.8em;
+            font-size: 5em;
             margin-bottom: 0;
         }
         p
@@ -56,9 +55,9 @@ main
     .e_hashtags
     {
         margin-top: 12vh;
-        text-align: center;
+        text-align: start;
         width : 60vw;
-
+        margin-left: 4vw;
         h5
         {
             font-size: 1.8em;
@@ -108,16 +107,16 @@ main
     .e_titre2
     {
         padding-top: 12vh;
-        text-align: center;
+        text-align: start;
         width : 70vw;
-        margin-left: 30vw;
+        margin-left: 40vw;
         h2
         {        
             color : #E6B741;
             font-family: 'Abril Fatface', cursive;
             font-weight: 100;
             text-transform: uppercase;
-            font-size: 2.8em;
+            font-size: 4em;
             margin-bottom: 0;
         }
         p
@@ -130,9 +129,9 @@ main
     .e_hashtags2
     {
         padding-top: 5vh;
-        text-align: center;
+        text-align: start;
         width : 70vw;
-        margin-left: 30vw;
+        margin-left: 40vw;
 
         h5
         {

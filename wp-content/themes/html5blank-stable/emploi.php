@@ -17,12 +17,9 @@
             <p>#audit #enquête #concurrence</p>
         </div>
         <div class="e_determiner">
-            <h5>déterminer votre stratégie<br>de communication</h5>
+            <h5>déterminer votre stratégie de communication</h5>
             <p>animation d'ateliers com'<br>brainstorming</p>
         </div>
-    </div>
-    <div class="e_button">
-        <a class="e_savoirplus" href="#">en savoir plus</a>
     </div>
 </section>
 
