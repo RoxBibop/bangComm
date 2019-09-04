@@ -25,6 +25,7 @@ get_template_part('nav'); ?>
         <p class="subtitle">Ils sont devenus « super » communicants...</p>
 
         <div class="tronc">
+
             <div class="p_flex end">
                 <div class="p_bloc">
 
@@ -58,7 +59,7 @@ get_template_part('nav'); ?>
                             </p>
                         </div>
 
-                        <p class="p_tag">
+                        <p class="p_tag top">
                             / Brainstorming / Concept / Contnus / Supports de Communication /
                         </p>
                     </div>
@@ -180,7 +181,6 @@ get_template_part('nav'); ?>
                                 raconte t-on à vos clients ? Dans quel univers les
                                 accueille t-on ?
                             </p>
-
                             <p class="p_content">
                                 Au delà du simple logo, nous concevons l’univers
                                 graphique qui vous correspond et créons un outil de
@@ -188,7 +188,7 @@ get_template_part('nav'); ?>
                             </p>
                         </div>
 
-                        <p class="p_tag">
+                        <p class="p_tag bot">
                             / Logo / Charte Graphique / Moodboard /
                         </p>
                     </div>
