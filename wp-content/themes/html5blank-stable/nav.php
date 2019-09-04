@@ -4,7 +4,7 @@
 	<span></span>
 	<span></span>
 </div>
-<div class="logobtn">
+<div class="logobtn rellax" data-rellax-speed="-4">
 	<img src="<?php echo get_template_directory_uri(); ?>/img/Bang-logo.png" alt="logo Bang communication">
 </div>
 <header class="header clear" role="banner">
