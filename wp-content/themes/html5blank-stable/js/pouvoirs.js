@@ -1,14 +1,17 @@
-var circle = document.querySelector('.circle-plus');
+var circle = document.querySelectorAll('.circle-plus');
 
-var content = document.querySelector('.p_contents');
+var content = document.querySelectorAll('.p_contents');
 
-var tag = document.querySelector('.p_tag');
+var tag = document.querySelectorAll('.p_tag');
 
-function plusmoins() {
-    circle.classList.toggle('opened');
-    content.classList.toggle('visible');
-    tag.classList.toggle('down');
+for (let i = 0; i < circle.length; i++) {
+    
+    function plusmoins() {
+        circle[i].classList.toggle('opened');
+        content[i].classList.toggle('visible');
+        tag[i].classList.toggle('down');
+    }
+    
+    circle[i].addEventListener('click', plusmoins);
+    
 }
-
-circle.addEventListener('click', plusmoins);
-console.log('slt c cool');

@@ -56,12 +56,12 @@ h4 {
 
         .closed {
             .vertical {
-                transition: all 0.5s;
+                transition: all 0.5s ease-in-out;
                 transform: rotate(-90deg);
             }
 
             .horizontal {
-                transition: all 0.5s;
+                transition: all 0.5s ease-in-out;
                 transform: rotate(-90deg);
                 opacity: 1;
             }
@@ -77,8 +77,8 @@ h4 {
 
             .horizontal {
                 transition: all 0.5s ease-in-out;
-                transform: rotate(190deg);
-                opacity: 0;
+                transform: rotate(180deg);
+                opacity: 1;
             }
         }
 
@@ -131,6 +131,7 @@ h4 {
         }
 
         .p_contents {
+            background-color: #F5F5EE;
             transition: .5s;
             transform: scaleY(0);
             transform-origin: top;
@@ -154,12 +155,20 @@ h4 {
         .p_tag {
             transition: .5s;
             position: relative;
-            bottom: 70%;
+            bottom: 73%;
             text-transform: uppercase;
             font-size: 1.6em;
             color: #E94E4D;
             font-family: 'Lato', sans-serif;
             margin-top: 0;
+        }
+
+        .top {
+            bottom: 70%;
+        }
+
+        .bot {
+            bottom: 65%;
         }
 
         .down {
@@ -242,9 +251,13 @@ h4 {
 
 .rond {
     position: absolute;
-    width: 60vh;
+    width: 55vh;
     top: 23vh;
     left: -11vw;
+
+    img {
+        object-fit: cover;
+    }
 }
 
 .rond_pt {
@@ -252,6 +265,10 @@ h4 {
     width: 20vh;
     top: 25vh;
     left: 28vw;
+
+    img {
+        object-fit: cover;
+    }
 }
 
 .superman {
@@ -261,6 +278,7 @@ h4 {
     z-index: 10;
 
     img {
+        object-fit: cover;
         height: 30vh;
         transform: rotateZ(30deg);
     }
@@ -270,5 +288,5 @@ h4 {
     position: absolute;
     width: 50vh;
     top: 180vh;
-    left: 5vw;
+    left: -5vw;
 }
