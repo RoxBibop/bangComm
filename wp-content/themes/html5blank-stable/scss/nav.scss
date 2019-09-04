@@ -28,6 +28,18 @@
         position: relative !important;
         margin-bottom: 10vh !important;
     }
+        
+    .logobtn
+    {
+        left : 10px !important;
+        img
+        {
+            left : 10px !important;
+            object-fit: contain !important;
+            width :30vw !important;
+            height: 30vh;
+        }
+    }
 }
 
 
