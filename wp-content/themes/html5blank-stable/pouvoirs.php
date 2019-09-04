@@ -32,7 +32,7 @@ get_template_part('nav'); ?>
         <img src="<?php echo get_template_directory_uri(); ?>/img/triangle_dots.png" alt="">
     </div>
 
-    <div class="triangle_2 rellax" data-rellax-speed="2">
+    <div class="triangle_2 rellax" data-rellax-speed="-2">
         <img src="<?php echo get_template_directory_uri(); ?>/img/triangle_dots.png" alt="">
     </div>
 
