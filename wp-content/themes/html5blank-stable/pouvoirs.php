@@ -8,11 +8,15 @@ get_template_part('nav'); ?>
     <img src="<?php echo get_template_directory_uri(); ?>/img/rond_dots.png" alt="">
     </div>
 
-    <div class="rond_pt rellax" data-rellax-speed="-3">
+    <div class="rond_pt rellax" data-rellax-speed="-4">
     <img src="<?php echo get_template_directory_uri(); ?>/img/rond_dots.png" alt="">
     </div>
 
     <div class="superman rellax" data-rellax-speed="6"><img src="<?php echo get_template_directory_uri(); ?>/img/superman.png" alt="Super héro volant avec sa cape"></div>
+
+    <div class="croix rellax" data-rellax-speed="3">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/croix_dots.png" alt="">
+    </div>
 
     <section class="p_section">
 

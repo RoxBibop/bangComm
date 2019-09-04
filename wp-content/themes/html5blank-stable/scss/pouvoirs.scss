@@ -43,7 +43,7 @@ h4 {
     }
 
     .p_bloc {
-        width: 42vw;
+        width: 43vw;
         padding: 0 20px;
         margin-bottom: 20vh;
         font-weight: bold;
@@ -56,12 +56,12 @@ h4 {
 
         .closed {
             .vertical {
-                transition: all 0.5s ease-in-out;
+                transition: all 0.5s;
                 transform: rotate(-90deg);
             }
 
             .horizontal {
-                transition: all 0.5s ease-in-out;
+                transition: all 0.5s;
                 transform: rotate(-90deg);
                 opacity: 1;
             }
@@ -77,7 +77,7 @@ h4 {
 
             .horizontal {
                 transition: all 0.5s ease-in-out;
-                transform: rotate(90deg);
+                transform: rotate(190deg);
                 opacity: 0;
             }
         }
@@ -130,6 +130,18 @@ h4 {
             font-size: 2em;
         }
 
+        .p_contents {
+            transition: .5s;
+            transform: scaleY(0);
+            transform-origin: top;
+            opacity: 0;
+        }
+
+        .visible {
+            transform: scaleY(1);
+            opacity: 1;
+        }
+
         .p_content {
             line-height: 1.7;
         }
@@ -140,11 +152,19 @@ h4 {
         }
 
         .p_tag {
+            transition: .5s;
+            position: relative;
+            bottom: 70%;
             text-transform: uppercase;
             font-size: 1.6em;
             color: #E94E4D;
             font-family: 'Lato', sans-serif;
             margin-top: 0;
+        }
+
+        .down {
+            transition: .5s;
+            bottom: 0%;
         }
     }
 
@@ -222,26 +242,33 @@ h4 {
 
 .rond {
     position: absolute;
-    width : 65vh;
-    top : 23vh;
-    left : -11vw;
+    width: 60vh;
+    top: 23vh;
+    left: -11vw;
 }
 
 .rond_pt {
     position: absolute;
-    width : 25vh;
-    top : 25vh;
-    left : 28vw;
+    width: 20vh;
+    top: 25vh;
+    left: 28vw;
 }
 
 .superman {
     position: absolute;
-    top : 90vh;
-    right : 0;
+    top: 100vh;
+    right: 0;
     z-index: 10;
 
     img {
-        height : 30vh;
+        height: 30vh;
         transform: rotateZ(30deg);
     }
+}
+
+.croix {
+    position: absolute;
+    width: 50vh;
+    top: 180vh;
+    left: 5vw;
 }
