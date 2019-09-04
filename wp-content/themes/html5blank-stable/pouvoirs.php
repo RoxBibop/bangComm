@@ -5,17 +5,35 @@ get_template_part('nav'); ?>
 <main>
 
     <div class="rond rellax" data-rellax-speed="3">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/rond_dots.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/rond_dots.png" alt="">
     </div>
 
     <div class="rond_pt rellax" data-rellax-speed="-4">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/rond_dots.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/rond_dots.png" alt="">
     </div>
 
     <div class="superman rellax" data-rellax-speed="6"><img src="<?php echo get_template_directory_uri(); ?>/img/superman.png" alt="Super héro volant avec sa cape"></div>
 
     <div class="croix rellax" data-rellax-speed="3">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/croix_dots.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/croix_dots.png" alt="">
+    </div>
+
+    <div class="rond_bot rellax" data-rellax-speed="-3">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/rond_dots.png" alt="">
+    </div>
+
+    <div class="croix_bot rellax" data-rellax-speed="3">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/croix_dots.png" alt="">
+    </div>
+
+    <!-- Triangles -->
+
+    <div class="triangle_1 rellax" data-rellax-speed="2">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/triangle_dots.png" alt="">
+    </div>
+
+    <div class="triangle_2 rellax" data-rellax-speed="2">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/triangle_dots.png" alt="">
     </div>
 
     <section class="p_section">
@@ -198,17 +216,24 @@ get_template_part('nav'); ?>
 
     </section>
 
-    <section class="p_bandeau">
-        <div class="p_bande"></div>
+    <div class="bandeau_wonder">
 
-        <div class="p_button">
-            <div class="p_fonblan">
-                <h4><a href="" class="p_cape">Je revêts ma cape</a></h4>
+        <img class="p_wonder" src="<?php echo get_template_directory_uri(); ?>/img/wonderwoman.png" alt="Wonderwoman avec les poings sur les hanches">
+
+        <section class="p_bandeau">
+
+            <div class="p_bande"></div>
+
+            <div class="p_button">
+                <div class="p_fonblan">
+                    <h4><a href="" class="p_cape">Je revêts ma cape</a></h4>
+                </div>
             </div>
-        </div>
 
-        <div class="p_bande"></div>
-    </section>
+            <div class="p_bande"></div>
+        </section>
+    </div>
+
 
     <section class="p_section_slider">
         <div class="p_cont">
