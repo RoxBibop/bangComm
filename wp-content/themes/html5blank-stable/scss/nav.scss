@@ -71,12 +71,13 @@
     top:0px;
     left : 0;
     clip-path: circle(100px at 120% -25%);
-    transition : .8s;
-    z-index: 9434
+    transition : .6s;
+    z-index: 9434;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 .headerActive
 {
-    clip-path: circle(1400px);
+    clip-path: circle(1200px);
 }
 .navbar
 {

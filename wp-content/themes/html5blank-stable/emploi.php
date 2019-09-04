@@ -1,18 +1,23 @@
 <?php /* Template Name: Emploi */ get_header(); get_template_part('nav');?>
 <main>
-<div class="e_bagarre rellax" data-rellax-speed="4"><img src="<?php echo get_template_directory_uri(); ?>/img/bagarre.png" alt="Personnage qui donne un coup de poing"></div>
-<div class="e_green1 rellax" data-rellax-speed="-4"></div>
-<div class="e_green2 rellax" data-rellax-speed="4"></div>
-<section class="e_sec">
-    
-    <div class="e_titre">
-        <h2>Le mode d'emploi</h2>
+    <div class="e_bagarre rellax" data-rellax-speed="6"><img src="<?php echo get_template_directory_uri(); ?>/img/bagarre.png" alt="Personnage qui donne un coup de poing"></div>
+    <div class="e_green1 rellax" data-rellax-speed="-4"></div>
+    <div class="e_green2 rellax" data-rellax-speed="4"></div>
+    <div class="e_yellowcross rellax" data-rellax-speed="-1"><img src="<?php echo get_template_directory_uri(); ?>/img/croix_jaune.png" alt="croix jaune"></div>
+    <div class="e_yellowcross2 rellax" data-rellax-speed="-2"><img src="<?php echo get_template_directory_uri(); ?>/img/croix_jaune.png" alt="croix jaune"></div>
+    <div class="e_superman rellax" data-rellax-speed="4"><img src="<?php echo get_template_directory_uri(); ?>/img/superman.png" alt="personnage qui vole"></div>
+    <div class="e_rectangle rellax" data-rellax-speed="-1"><img src="<?php echo get_template_directory_uri(); ?>/img/rectangle_bleu.png" alt="rectangle bleu"></div>
+    <div class="e_rectangle2 rellax" data-rellax-speed="3"><img src="<?php echo get_template_directory_uri(); ?>/img/rectangle_bleu.png" alt="rectangle bleu"></div>
+    <section class="e_sec">
+        
+        <div class="e_titre">
+            <h1>Le mode d'emploi</h1>
         <p>Comment devenir un super-communicant ?</p>
     </div>
-
+    
     <div class="e_valeur">
         <h2>Révélons vos valeurs</h2>
-        <p>Ensemble, nous révélons le meilleur de vos<br>entreprises et de vos savoir-faire.</p>
+        <p>Ensemble, nous révélons le meilleur de vos entreprises et de vos savoir-faire.</p>
     </div>
     <div class="e_hashtags">
         <div class="e_analyser">
@@ -29,9 +34,9 @@
 <section class="e_creons">
     <div class="e_titre2">
         <h2>Créons la différence</h2>
-        <p>Nous mettons notre expertise et notre<br>
-           créativité à votre service pour vous<br>
-           permettre de vous démarquer et de vous</p>
+        <p>Nous mettons notre expertise et notre 
+        créativité à votre service pour vous
+        permettre de vous démarquer et de vous</p>
     </div>
     <div class="e_hashtags2">
         <div class="e_msg">
@@ -46,14 +51,13 @@
             <h5>créer vos supports</h5>
             <p>imprimés, press, digital, réseaux sociaux;<br>vidéos, salons, goodies...</p>
         </div>
-var rellax = new Rellax('.rellax');
-
         <div class="e_sel">
             <h5>sélectionner et/ou piloter les prestataires</h5>
             <p>digital, imprimer, enseigne, photographie...</p>
         </div>
     </div>
 </section>
+<div class="e_run rellax" data-rellax-speed="7"><img src="<?php echo get_template_directory_uri(); ?>/img/run.png" alt="croix jaune"></div>
 <section class="e_cultiver">
     <hr class="hr1">
     <div class="e_divpasplus">
@@ -66,8 +70,8 @@ var rellax = new Rellax('.rellax');
     <div class="e_titre3">
         <h2>Cultivons vos talents</h2>
         <p>Nous proposons les outils qui
-           professionnalisent votre <br>communication
-           et mettent en lumière les talents de votre<br>entreprise.</p>
+           professionnalisent votre communication
+           et mettent en lumière les talents de votre entreprise.</p>
     </div>
     <div class="e_hashtags">
         <div>
