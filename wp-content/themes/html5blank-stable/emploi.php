@@ -32,13 +32,13 @@
 </section>
 
 <section class="e_creons">
-    <div class="e_titre2">
+    <div class="e_titre2" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
         <h2>Créons la différence</h2>
         <p>Nous mettons notre expertise et notre 
         créativité à votre service pour vous
         permettre de vous démarquer et de vous</p>
     </div>
-    <div class="e_hashtags2">
+    <div class="e_hashtags2" data-aos="fade-right" data-aos-anchor-placement="top-center">
         <div class="e_msg">
             <h5>concevoir le message</h5>
             <p>#pitch commercial #création de contenus<br>#identité visuelle</p>
@@ -63,17 +63,18 @@
     <div class="e_divpasplus">
         <p class="e_pasplus">ne m'en dites pas plus...</p>
         <div class="e_fonrouge">
+            <div class="e_fonrouge2"></div>
             <a class="e_costume"href="#">j'enfile mon collant</a>
         </div>
     </div>
     <hr class="hr2">
-    <div class="e_titre3">
+    <div class="e_titre3"  data-aos="fade-right" data-aos-anchor-placement="top-bottom">
         <h2>Cultivons vos talents</h2>
         <p>Nous proposons les outils qui
            professionnalisent votre communication
            et mettent en lumière les talents de votre entreprise.</p>
     </div>
-    <div class="e_hashtags">
+    <div class="e_hashtags"  data-aos="fade-right" data-aos-anchor-placement="top-center">
         <div>
             <h5>former vos talents</h5>
             <p>logiciels d'infographie, mise à jour de site web,<br>réseaux sociaux</p>
@@ -94,10 +95,18 @@
     <div class="e_button">
         <a class="e_savoirplus" href="#">en savoir plus</a>
     </div>
+
     <?php get_footer();?>
 </section>
 </main>
 
 <script>
     var rellax = new Rellax('.rellax');
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+      duration: 1000
+  });
 </script>

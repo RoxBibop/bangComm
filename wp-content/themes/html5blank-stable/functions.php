@@ -112,6 +112,10 @@ function html5blank_header_scripts()
  
         wp_register_script('fontawesome', 'https://kit.fontawesome.com/0b3a13e271.js', array(), '1.0.0'); // Custom scripts
         wp_enqueue_script('fontawesome'); // Enqueue it!
+
+        wp_register_script('emploi', get_template_directory_uri() . '/js/emploi.js', array(), '1.0.0', true); // Custom scripts
+        wp_enqueue_script('emploi'); // Enqueue it!
+
     }
 }
 
@@ -150,6 +154,10 @@ function html5blank_styles()
 
     wp_register_style('nav', get_template_directory_uri() . '/css/nav.min.css', array(), '1.0', 'all');
     wp_enqueue_style('nav'); // Enqueue it!
+
+    wp_register_style('aos', get_template_directory_uri() . '/css/aos.min.css', array(), '1.0', 'all');
+    wp_enqueue_style('aos'); // Enqueue it!
+
 }
 
 // Register HTML5 Blank Navigation

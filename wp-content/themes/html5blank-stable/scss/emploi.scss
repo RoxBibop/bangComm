@@ -411,3 +411,19 @@ main
         transform: rotateZ(-35deg);
     }
 }
+
+.e_fonrouge2
+{
+    content : "";
+    position: absolute;
+    background-color: aqua;
+    height : 15px;
+    width : 300px;
+    border-radius: 25px;
+    z-index: 0;
+}
+
+.aaa
+{
+    background-color: red !important;
+}
