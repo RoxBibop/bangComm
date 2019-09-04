@@ -104,6 +104,9 @@ function html5blank_header_scripts()
         wp_register_script('nav', get_template_directory_uri() . '/js/nav.js', array(), '1.0.0', true); // Custom scripts
         wp_enqueue_script('nav'); // Enqueue it!
 
+        wp_register_script('pouvoirs', get_template_directory_uri() . '/js/pouvoirs.js', array(), '1.0.0', true); // Custom scripts
+        wp_enqueue_script('pouvoirs'); // Enqueue it!
+
         wp_register_script('rellax', get_template_directory_uri() . '/js/rellax.min.js', array(), '1.0.0', true); // Custom scripts
         wp_enqueue_script('rellax'); // Enqueue it!
  
