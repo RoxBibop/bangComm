@@ -215,6 +215,7 @@ main
             border-radius: 25px;
             padding : 5px;
             margin-bottom: 5vh;
+            z-index: 213;
         }
         a
         {
@@ -228,7 +229,7 @@ main
             padding: 5px 2em 5px 2em;
             border-radius: 25px;
             transition: .5s;
-
+            z-index: 342
         }
     }
     .hr2
@@ -416,14 +417,17 @@ main
 {
     content : "";
     position: absolute;
-    background-color: aqua;
-    height : 15px;
-    width : 300px;
+    background-color: #E94E4D;
+    height : 54px;
+    width : 350px;
     border-radius: 25px;
     z-index: 0;
+    transition : none;
 }
 
 .aaa
 {
-    background-color: red !important;
+    transition: .5s;
+    transform: scaleX(1.3) scaleY(1.7);
+    opacity: 0;
 }

@@ -62,10 +62,15 @@
     <hr class="hr1">
     <div class="e_divpasplus">
         <p class="e_pasplus">ne m'en dites pas plus...</p>
-        <div class="e_fonrouge">
+        
+
+        <div class="e_fullbtn">
             <div class="e_fonrouge2"></div>
-            <a class="e_costume"href="#">j'enfile mon collant</a>
+            <div class="e_fonrouge">
+                <a class="e_costume"href="#">j'enfile mon collant</a>
+            </div>
         </div>
+        
     </div>
     <hr class="hr2">
     <div class="e_titre3"  data-aos="fade-right" data-aos-anchor-placement="top-bottom">
